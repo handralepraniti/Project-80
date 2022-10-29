@@ -1,0 +1,93 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+	font-family: 'Lato', cursive;
+	font-size: 2.5rem;
+	padding-bottom:0;
+}
+
+button{
+	font-family: 'Montserrat', sans-serif;
+}
+
+input {
+	margin: 10px;
+}
+
+p{
+	padding-top:20px;
+}
+
+.top-div{
+	background-color: #fff7dd;
+	padding:150px;
+	padding-bottom:100px;
+	color:#6805aa;
+}
+.bottom-div{
+	padding:150px;
+	background-color:#b34dd4;
+	color:rgb(44, 21, 99);
+}
+
+#s1{
+	color:rgb(18, 2, 56);
+	border-color:rgb(97, 41, 226);
+	border-style:none;
+	padding:7px;
+}
+#name1{
+	color:#000000;
+	border-style:none;
+	padding:7px;
+}
+
+#show{
+	margin-bottom: 10px;
+	background-color: rgb(255, 102, 0);
+}
+#submit_button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(255, 102, 0);
+}
+#sort_button {
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(255, 102, 0);
+}
+#srch{
+	background-color:rgb(97, 41, 226);
+	color:rgb(253, 253, 253);
+}
+#srch:hover{
+	background-color:rgb(66, 15, 184);
+	color:white;
+}
+
+#name1::placeholder{
+	color:#010e0c;
+}
+#name1:-ms-input-placeholder {
+	color:#000202;
+   ;
+}
+#name1::-ms-input-placeholder {
+	color:#010c0b;
+   ;
+}
+#s1::-ms-input-placeholder {
+	color:rgb(167, 143, 223);
+}
+#s1::placeholder{
+	color:rgb(167, 143, 223);
+}
+#s1:-ms-input-placeholder {
+	color:rgb(167, 143, 223);
+}
+#s1::-ms-input-placeholder {
+	color:rgb(167, 143, 223);
+}
